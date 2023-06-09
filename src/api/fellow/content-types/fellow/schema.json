@@ -1,0 +1,250 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fellows",
+  "info": {
+    "singularName": "fellow",
+    "pluralName": "fellows",
+    "displayName": "Fellow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "middle_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Nonbinary Gender",
+        "Other/Prefer Not to Share"
+      ]
+    },
+    "image": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "name_pronunciation": {
+      "type": "string"
+    },
+    "undergraduate_degree": {
+      "type": "string"
+    },
+    "undergraduate_institute": {
+      "type": "string"
+    },
+    "graduate_degree": {
+      "type": "string"
+    },
+    "graduate_institute": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "Bangladesh",
+        "Canada",
+        "Chile",
+        "China",
+        "Colombia",
+        "Ethiopia",
+        "Finland",
+        "France",
+        "Germany",
+        "Ghana",
+        "India",
+        "Indonesia",
+        "Iraq",
+        "Italy",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kyrgystan",
+        "Lebanon",
+        "Luxemborg",
+        "Malaysia",
+        "Malawi",
+        "Maryland",
+        "Moldova",
+        "Nepal",
+        "New Zealand",
+        "Nigeria",
+        "Pakistan",
+        "Philippines",
+        "Qatar",
+        "Rwanda",
+        "Saudi Arabia",
+        "Sierra Leone",
+        "Singapore",
+        "South Africa",
+        "Spain",
+        "Sri Lanka",
+        "Tanzania",
+        "Turkey",
+        "Uganda",
+        "Ukraine",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States of America",
+        "Uzbekistan",
+        "Vietnam",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    "preferred_name": {
+      "type": "string"
+    },
+    "one_league_email": {
+      "type": "string"
+    },
+    "personal_email": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "alternate_phone_number": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country_of_birth": {
+      "type": "enumeration",
+      "enum": [
+        "Bangladesh",
+        "Canada",
+        "Chile",
+        "China",
+        "Colombia",
+        "Ethiopia",
+        "Finland",
+        "France",
+        "Germany",
+        "Ghana",
+        "India",
+        "Indonesia",
+        "Iraq",
+        "Italy",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kyrgystan",
+        "Lebanon",
+        "Luxemborg",
+        "Malaysia",
+        "Malawi",
+        "Maryland",
+        "Moldova",
+        "Nepal",
+        "New Zealand",
+        "Nigeria",
+        "Pakistan",
+        "Philippines",
+        "Qatar",
+        "Rwanda",
+        "Saudi Arabia",
+        "Sierra Leone",
+        "Singapore",
+        "South Africa",
+        "Spain",
+        "Sri Lanka",
+        "Tanzania",
+        "Turkey",
+        "Uganda",
+        "Ukraine",
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States of America",
+        "Uzbekistan",
+        "Vietnam",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    "enrollment_status": {
+      "type": "enumeration",
+      "enum": [
+        "Enrolled",
+        "Deferred",
+        "Withdrawal",
+        "Enrollment Rescinded",
+        "Unknown"
+      ]
+    },
+    "year_of_study": {
+      "type": "integer"
+    },
+    "program_of_study": {
+      "type": "enumeration",
+      "enum": [
+        "Master of Business Administration",
+        "Data Science",
+        "Innovation & Entrepreneurship"
+      ]
+    },
+    "certificate_or_concentration_year": {
+      "type": "integer"
+    },
+    "certificate_or_concentration_cohort": {
+      "type": "enumeration",
+      "enum": [
+        "Master of Business Administration",
+        "Data Science",
+        "Innovation & Entrepreneurship"
+      ]
+    },
+    "champion_name": {
+      "type": "string"
+    },
+    "champion_email": {
+      "type": "string"
+    },
+    "champion_phone": {
+      "type": "string"
+    },
+    "champion_name_alternate": {
+      "type": "string"
+    },
+    "champion_email_alternate": {
+      "type": "string"
+    },
+    "champion_phone_alternate": {
+      "type": "string"
+    },
+    "mentor_name": {
+      "type": "string"
+    },
+    "student_number": {
+      "type": "string"
+    },
+    "referred_institution": {
+      "type": "string"
+    },
+    "accomplishments": {
+      "type": "text"
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+}
